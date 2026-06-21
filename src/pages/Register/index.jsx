@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/useAuth";
 import { checkEmailExists, signUp, signIn, uploadPhoto } from "../../services/authService";
-import "./Register.css";
+import "./register.css";
 
 export function Register() {
   const [name, setName] = useState("");

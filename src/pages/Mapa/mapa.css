@@ -90,8 +90,8 @@
 
 .btn-delete-posto {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 0;
+  right: 5px;
   background: #ef4444;
   color: white;
   border: none;

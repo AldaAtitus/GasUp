@@ -3,7 +3,7 @@ import { Navbar, PostoCard } from "../../components";
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 import { useAuth } from "../../contexts/useAuth";
 import { getAllPoints, getMyPoints, postPoint, deletePoint, listarFavoritos } from "../../services/mapService";
-import "./Mapa.css";
+import "./mapa.css";
 
 const containerStyle = { width: "100%", height: "400px" };
 const center = { lat: -28.2628, lng: -52.4065 };
