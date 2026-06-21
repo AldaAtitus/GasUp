@@ -139,7 +139,6 @@ export function Register() {
                 id="foto-input"
               />
               <label htmlFor="foto-input" className="input-file-label">
-                <span className="foto-placeholder">📷</span>
               </label>
               <span className="foto-input-text">Foto (opcional)</span>
             </div>
