@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/useAuth";
 import { signIn } from "../../services/authService";
 import "./login.css";
-const logo = "/Logo.png";
+import logo from "/src/assets/Logo.png";
 
 export const Logo = ({ showSubtitle = false }) => {
   return (
